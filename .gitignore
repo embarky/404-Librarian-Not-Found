@@ -1,0 +1,12 @@
+# According the Competition Rules, ignoring the kaggle data
+kaggle_data/
+
+# Common Python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
