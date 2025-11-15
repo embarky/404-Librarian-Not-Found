@@ -22,41 +22,19 @@ It combines **collaborative filtering** and **transformer-based NLP** to suggest
 
 🎯 Goal: Automate personalized book recommendations for university students.
 
----
-
-## 🚀 Tech Stack
-
-| Category | Tools Used |
-|-----------|-------------|
-| Programming | Python 3.11 |
-| Data Science | Pandas, NumPy, Scikit-learn |
-| Recommender System | LightFM, Surprise, NCF |
-| NLP | Sentence-BERT |
-| Visualization | Matplotlib, Seaborn |
-| Frontend | Streamlit |
-| Version Control | Git + GitHub Projects |
-
----
-
-## 🗓️ Project Progress
-
-| Date | Milestone | Description | Status |
-|------|------------|-------------|---------|
-| Oct 15 | 📂 Setup | Created repo and initialized project structure | ✅ Done |
-| Oct 20 | 🧹 Data Cleaning | Processed and merged dataset | ✅ Done |
-| Oct 25 | 🤖 Model Training | Trained baseline + deep learning model | 🚧 In Progress |
-| Nov 05 | 💻 Streamlit UI | Built a demo interface for recommendations | 🔜 Planned |
-| Nov 10 | 🎥 Presentation | Recorded final video and slides | 🔜 Planned |
-
-🗂️ [View detailed progress board →](https://github.com/YourUsername/TheLazyLibrarian/projects)
-
----
-
-## 🧩 System Architecture
-
-```mermaid
 graph TD
-A[User Input] --> B[Data Preprocessing]
-B --> C[Recommendation Engine]
-C --> D[Streamlit UI]
-D --> E[Book Suggestions]
+    A[Epic: Data & Exploration] --> A1[Issue #4 数据加载]
+    A --> A2[Issue #2 缺失值处理]
+    A --> A3[Issue #3 EDA]
+    A --> A4[Issue #4 特征工程]
+
+    B[Epic: Model Development] --> B1[Issue #4 Data & Development]
+    B --> B2[Issue #3 baseline]
+    B --> B3[Issue #12 模型比较]
+
+    C[Epic: Pipeline & App] --> C1[Issue #6 Model Development]
+    C --> C2[Issue #21 模型保存]
+    C --> C3[Issue #22 Streamlit UI]
+
+    D[Epic: Presentation & Demo] --> D1[Issue #5 Streamlit App Development]
+    D --> D2[Issue #31 视频录制]
