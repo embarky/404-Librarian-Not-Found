@@ -22,19 +22,20 @@ It combines **collaborative filtering** and **transformer-based NLP** to suggest
 
 🎯 Goal: Automate personalized book recommendations for university students.
 
+```mermaid
 graph TD
     A[Epic: Data & Exploration] --> A1[Issue #4 数据加载]
-    A --> A2[Issue #2 缺失值处理]
+    A --> A2[Issue #3 缺失值处理]
     A --> A3[Issue #3 EDA]
-    A --> A4[Issue #4 特征工程]
+    A --> A4[Issue #3 特征工程]
 
     B[Epic: Model Development] --> B1[Issue #4 Data & Development]
     B --> B2[Issue #3 baseline]
-    B --> B3[Issue #12 模型比较]
+    B --> B3[Issue #3 模型比较]
 
     C[Epic: Pipeline & App] --> C1[Issue #6 Model Development]
-    C --> C2[Issue #21 模型保存]
-    C --> C3[Issue #22 Streamlit UI]
+    C --> C2[Issue #3 模型保存]
+    C --> C3[Issue #3 Streamlit UI]
 
     D[Epic: Presentation & Demo] --> D1[Issue #5 Streamlit App Development]
-    D --> D2[Issue #31 视频录制]
+    D --> D2[Issue #3 视频录制]
